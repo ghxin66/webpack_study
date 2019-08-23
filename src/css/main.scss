@@ -1,0 +1,19 @@
+$reds:red;
+$font:green;
+
+body,
+html {
+    background: $reds;
+
+    .dom {
+        color: $font;
+        background: url(../images/index.jpg);
+        font-family: fontnameRegular;
+    }
+}
+
+
+@font-face {
+    font-family: 'fontnameRegular';
+    src: url('../fonts/SourceHanSansCN-Bold.otf');
+}
